@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "847686925325",
+    "firebase_url": "https://omscs6300-grocerylist.firebaseio.com",
+    "project_id": "omscs6300-grocerylist",
+    "storage_bucket": "omscs6300-grocerylist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847686925325:android:3dbb21c42b080dc7",
+        "android_client_info": {
+          "package_name": "edu.gatech.seclass.glm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847686925325-lfl5i6vhngsskj6s2p3hqmphglpkg968.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOIsE-hK-1ytouEQfiO394u6l4xV1MEFk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3">
+
+    <TextView
+        android:text="Add an Item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addItemTitle"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/itemNameEditText"
+        android:layout_marginTop="20dp"
+        android:hint="Item Name" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/itemTypeSpinner"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/quanityEditText"
+            android:layout_weight="1"
+            android:hint="Quantity" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/itemUnitSpinner"
+            android:layout_weight="10" />
+    </LinearLayout>
+</LinearLayout>

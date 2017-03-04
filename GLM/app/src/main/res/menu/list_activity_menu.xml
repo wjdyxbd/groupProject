@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ListActivity">
+
+    <item
+        android:id="@+id/del"
+        android:icon="@drawable/ic_menu_delete"
+        app:showAsAction="always"
+        android:title="Delete List"/>
+    <item
+        android:id="@+id/checkOff"
+        android:icon="@drawable/check_off"
+        app:showAsAction="always"
+        android:title="Check-Off items"/>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        app:showAsAction="always"
+        android:title="Search item"/>
+    <item
+    android:id="@+id/add"
+    android:icon="@drawable/ic_add_black_24dp"
+    app:showAsAction="always"
+    android:title="Add item"/>
+
+</menu>
